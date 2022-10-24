@@ -18,5 +18,8 @@ int main(int argc, char **argv)
 	} 
 	printf("\n");
 
+	sP -= 27;
+	free(sP);
+
 	return 0;
 }
