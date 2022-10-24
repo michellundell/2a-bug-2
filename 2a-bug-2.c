@@ -13,8 +13,8 @@ int main(int argc, char **argv)
 	** sP++ moves the pointer one step from current position.
 	*/
 
-	while( *sP++ != '\0' ) {
-		printf("%c",*sP);
+	while( *sP != '\0' ) {
+		printf("%c",*sP++);
 	} 
 		
 	free(sP);
