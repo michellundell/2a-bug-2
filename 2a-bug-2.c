@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv)
 {
-	char *sP = malloc(10);
+	char *sP = malloc(30);
 	strcpy(sP,"Haj pau deg, horret idau?");
 
 	/* 
@@ -16,6 +16,8 @@ int main(int argc, char **argv)
 	while( *sP++ != '\0' ) {
 		printf("%c",*sP);
 	} 
+		
+	free(sP);
 	printf("\n");
 
 	return 0;
