@@ -5,8 +5,8 @@
 
 int main(int argc, char **argv)
 {
-	char *sP = malloc(10);
-	strcpy(sP,"Haj pau deg, horret idau?");
+	char *sP = malloc(27);
+	strcpy(sP," Haj pau deg, horret idau?");
 
 	/* 
 	** loop through memory and print the chars until end of string
