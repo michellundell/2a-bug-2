@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv)
 {
-	char *sP = malloc(10);
+	char *sP = malloc(26);
 	strcpy(sP,"Haj pau deg, horret idau?");
 
 	/* 
