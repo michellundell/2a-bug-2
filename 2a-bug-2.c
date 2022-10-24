@@ -5,7 +5,7 @@
 
 int main(int argc, char **argv)
 {
-	char *sP = malloc(10);
+	char *sP = malloc(40);
 	strcpy(sP,"Haj pau deg, horret idau?");
 
 	/* 
@@ -13,10 +13,14 @@ int main(int argc, char **argv)
 	** sP++ moves the pointer one step from current position.
 	*/
 
-	while( *sP++ != '\0' ) {
+	while(*sP != '\0') {
 		printf("%c",*sP);
+		*sP++;
 	} 
 	printf("\n");
+
+	// Important: free space when it's no longer needed.
+	free(sP);
 
 	return 0;
 }
